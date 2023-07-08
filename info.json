@@ -1,0 +1,85 @@
+{
+    "keyboard_name": "Turkish47",
+    "manufacturer": "enginbalikci",
+    "url": "",
+    "maintainer": "qmk",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0203",
+        "device_version": "1.0.0"
+    },
+    "processor": "atmega32u4",
+    "bootloader": "atmel-dfu",
+    "matrix_pins": {
+		"rows": ["B4", "B6", "F4", "B5"],
+		"cols": ["F5", "F6", "F7", "B1", "B3", "B2", "C6", "D7", "E6", "D4", "D0", "D1", "D2", "D3"]
+    },
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": false,
+        "mousekey": false,
+        "extrakey": false,
+        "console": false,
+        "command": false,
+        "nkro": true,
+        "backlight": false,
+        "rgblight": false,
+        "audio": false,
+        "key_lock": false
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "K00 (F4,F5)", "matrix": [0, 0], "x": 0, "y": 0, "w": 1.5},
+                {"label": "K01 (F4,F6)", "matrix": [0, 1], "x": 1, "y": 0},
+                {"label": "K02 (F4,F7)", "matrix": [0, 2], "x": 2, "y": 0},
+                {"label": "K03 (F4,B1)", "matrix": [0, 3], "x": 3, "y": 0},
+                {"label": "K04 (F4,B3)", "matrix": [0, 4], "x": 4, "y": 0},
+                {"label": "K05 (F4,B2)", "matrix": [0, 5], "x": 5, "y": 0},
+                {"label": "K06 (F4,C6)", "matrix": [0, 6], "x": 6, "y": 0},
+                {"label": "K07 (F4,D7)", "matrix": [0, 7], "x": 7, "y": 0},
+                {"label": "K08 (F4,E6)", "matrix": [0, 8], "x": 8, "y": 0},
+                {"label": "K09 (F4,D4)", "matrix": [0, 9], "x": 9, "y": 0},
+                {"label": "K0A (F4,D0)", "matrix": [0, 10], "x": 10, "y": 0},
+                {"label": "K0B (F4,D1)", "matrix": [0, 11], "x": 11, "y": 0},
+                {"label": "K0C (F4,D2)", "matrix": [0, 12], "x": 12, "y": 0},
+                {"label": "K0D (F4,D3)", "matrix": [0, 13], "x": 13, "y": 0, "w": 1.5},
+                {"label": "K10 (B6,F5)", "matrix": [1, 0], "x": 0, "y": 1, "w": 1.5},
+                {"label": "K12 (B6,F6)", "matrix": [1, 1], "x": 1.5, "y": 1},
+                {"label": "K13 (B6,F7)", "matrix": [1, 2], "x": 2.5, "y": 1},
+                {"label": "K14 (B6,B1)", "matrix": [1, 3], "x": 3.5, "y": 1},
+                {"label": "K15 (B6,B3)", "matrix": [1, 4], "x": 4.5, "y": 1},
+                {"label": "K16 (B6,B2)", "matrix": [1, 5], "x": 5.5, "y": 1},
+                {"label": "K17 (B6,C6)", "matrix": [1, 6], "x": 6.5, "y": 1},
+                {"label": "K18 (B6,D7)", "matrix": [1, 7], "x": 7.5, "y": 1},
+                {"label": "K19 (B6,E6)", "matrix": [1, 8], "x": 8.5, "y": 1},
+                {"label": "K1A (B6,D4)", "matrix": [1, 9], "x": 9.5, "y": 1},
+                {"label": "K1B (B6,D0)", "matrix": [1, 10], "x": 10.5, "y": 1},
+                {"label": "K1C (B6,D1)", "matrix": [1, 11], "x": 11.5, "y": 1},
+                {"label": "K1D (B6,D2)", "matrix": [1, 12], "x": 12.5, "y": 1, "w": 2},
+                {"label": "K21 (B4,F5)", "matrix": [2, 0], "x": 0, "y": 2, "w": 2},
+                {"label": "K22 (B4,F6)", "matrix": [2, 1], "x": 1, "y": 2},
+                {"label": "K23 (B4,F7)", "matrix": [2, 2], "x": 2, "y": 2},
+                {"label": "K24 (B4,B1)", "matrix": [2, 3], "x": 3, "y": 2},
+                {"label": "K25 (B4,B3)", "matrix": [2, 4], "x": 4, "y": 2},
+                {"label": "K26 (B4,B2)", "matrix": [2, 5], "x": 5, "y": 2},
+                {"label": "K27 (B4,C6)", "matrix": [2, 6], "x": 6, "y": 2},
+                {"label": "K28 (B4,D7)", "matrix": [2, 7], "x": 7, "y": 2},
+                {"label": "K29 (B4,E6)", "matrix": [2, 8], "x": 8, "y": 2},
+                {"label": "K2A (B4,D4)", "matrix": [2, 9], "x": 9, "y": 2},
+                {"label": "K2B (B4,D0)", "matrix": [2, 10], "x": 10, "y": 2},
+                {"label": "K2C (B4,D1)", "matrix": [2, 11], "x": 11, "y": 2},
+                {"label": "K2D (B4,D2)", "matrix": [2, 12], "x": 12, "y": 2, "w": 1.5},
+                {"label": "K32 (B5,B1)", "matrix": [3, 3], "x": 1.75, "y": 3, "w": 1.25},
+                {"label": "K33 (B5,B3)", "matrix": [3, 4], "x": 3, "y": 3, "w": 1.25},
+                {"label": "K35 (B5,B2)", "matrix": [3, 5], "x": 4.25, "y": 3, "w": 3},
+                {"label": "K38 (B5,C6)", "matrix": [3, 6], "x": 7.25, "y": 3, "w": 3},
+                {"label": "K3A (B5,D7)", "matrix": [3, 7], "x": 10.25, "y": 3, "w": 1.25},
+                {"label": "K3C (B5,E6)", "matrix": [3, 8], "x": 11.5, "y": 3, "w": 1.25},
+				{"label": "K3C (B5,D4)", "matrix": [3, 9], "x": 11.5, "y": 3, "w": 1.25}
+				
+           ]
+        }
+    }
+    "meta": "https://noroadsleft.github.io/kbf_qmk_converter/"
+}
